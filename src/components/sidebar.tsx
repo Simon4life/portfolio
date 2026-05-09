@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react"
-import { FaGithub, FaLinkedin, FaTwitter, FaMailBulk } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa"
 const navItems = [
   { id: "about", label: "ABOUT" },
   { id: "projects", label: "PROJECTS" },
@@ -37,7 +37,7 @@ export function Sidebar() {
   }
 
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 py-12 lg:py-24">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 py-12">
       <div>
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
           Ogar Simon
@@ -83,7 +83,7 @@ export function Sidebar() {
       <ul className="mt-8 flex items-center gap-5" aria-label="Social media">
         <li>
           <a
-            href="https://github.com/Simon4life"
+            href="https://wwww.github.com/Simon4life"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -94,7 +94,7 @@ export function Sidebar() {
         </li>
         <li>
           <a
-            href="www.linkedin.com/in/ogar-simon-489353203"
+            href="https://wwww.linkedin.com/in/ogar-simon-489353203"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
