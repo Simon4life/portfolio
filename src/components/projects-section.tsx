@@ -38,7 +38,7 @@ export function ProjectsSection() {
             <li key={project.title} className="group">
               <a
                 href={project.url}
-                className="relative flex flex-col gap-4 rounded-lg p-4 transition-all lg:p-6 bg-card/80 group-hover:opacity-100 group-[:hover]:opacity-60 hover:!opacity-100"
+                className="relative flex flex-col gap-4 rounded-lg p-4 transition-all lg:p-6 bg-card/80"
                 target="_blank"
                 rel="noopener noreferrer"
               >
