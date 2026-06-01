@@ -5,7 +5,7 @@ const projects = [
     title: "Devlinks",
     description:
       "A social media links sharing platform for developers. Users can create a personalized profile with links to their GitHub, LinkedIn, portfolio, and other social media.",
-    url: "#",
+    url: "https://devlinksapp.netlify.app/",
     technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB",],
   },
   {
