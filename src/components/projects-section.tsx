@@ -12,7 +12,7 @@ const projects = [
     title: "Kanban task manager",
     description:
       "A task management platform that helps users organize their various task in to categories of To Do, In Progress, and Done. Users can create multiple boards for different projects, add tasks with due dates and labels.",
-    url: "#",
+    url: "https://kanban-tasker.netlify.app/",
     technologies: ["React", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
   },
   {
