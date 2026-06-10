@@ -16,11 +16,11 @@ const projects = [
     technologies: ["React", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
   },
   {
-    title: "Fly News",
+    title: "Gud Ai'dea - Campaing website",
     description:
-      "A news summarization tool that uses gemini flash model to generate concise summaries of news articles. Users can input a news article URL and receive a summary of the key points in the article.",
-    url: "#",
-    technologies: ["React", "tailwind css", "gemini"],
+      "A campaign website for Gud Ai'dea, a startup that provides solutions for businesses. The website features a clean and modern design, with sections for showcasing the company's products, services, and team. The website is built using React and Tailwind CSS, and is optimized for performance and accessibility.",
+    url: "https://gud-aidia.netlify.app/",
+    technologies: ["Next js", "tailwind css", "Framer Motion", "Vercel"],
   },
 ]
 
