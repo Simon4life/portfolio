@@ -2,11 +2,18 @@ import { Badge } from "@radix-ui/themes"
 import { LuArrowUpRight } from "react-icons/lu";
 const projects = [
   {
-    title: "Devlinks",
+    title: "Gud Ai'dea - Campaing website",
     description:
-      "A social media links sharing platform for developers. Users can create a personalized profile with links to their GitHub, LinkedIn, portfolio, and other social media.",
-    url: "https://devlinksapp.netlify.app/",
-    technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB",],
+      "A campaign website for Gud Ai'dea, a startup that provides solutions for businesses. The website features a clean and modern design, with sections for showcasing the company's products, services, and team. The website is built using React and Tailwind CSS, and is optimized for performance and accessibility.",
+    url: "https://gud-aidia.netlify.app/",
+    technologies: ["Next js", "tailwind css", "Framer Motion", "Vercel"],
+  },
+  {
+    title: "Fox Movies app",
+    description:
+      "A movie discovery app that allows users to browse and search for movies, view details, and manage their watchlist. The app is built using React and Tailwind CSS, and is optimized for performance and accessibility.",
+    url: "https://fox-movies-app.netlify.app/",
+    technologies: ["React", "Styled components", "TMDB API", "Netlify"],
   },
   {
     title: "Kanban task manager",
@@ -15,13 +22,7 @@ const projects = [
     url: "https://kanban-tasker.netlify.app/",
     technologies: ["React", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
   },
-  {
-    title: "Gud Ai'dea - Campaing website",
-    description:
-      "A campaign website for Gud Ai'dea, a startup that provides solutions for businesses. The website features a clean and modern design, with sections for showcasing the company's products, services, and team. The website is built using React and Tailwind CSS, and is optimized for performance and accessibility.",
-    url: "https://gud-aidia.netlify.app/",
-    technologies: ["Next js", "tailwind css", "Framer Motion", "Vercel"],
-  },
+  
 ]
 
 export function ProjectsSection() {
