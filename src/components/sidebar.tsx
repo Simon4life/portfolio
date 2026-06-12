@@ -83,7 +83,7 @@ export function Sidebar() {
       <ul className="mt-8 flex items-center gap-5" aria-label="Social media">
         <li>
           <a
-            href="https://wwww.github.com/Simon4life"
+            href="https://www.github.com/Simon4life"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -94,7 +94,7 @@ export function Sidebar() {
         </li>
         <li>
           <a
-            href="https://wwww.linkedin.com/in/ogar-simon-489353203"
+            href="https://www.linkedin.com/in/ogar-simon-489353203"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -106,6 +106,7 @@ export function Sidebar() {
         <li>
           <a
             href="mailto:ogarsimon0000@gmail.com"
+            target="_blank"
             className="text-muted-foreground hover:text-foreground transition-colors"
             aria-label="Email"
           >
